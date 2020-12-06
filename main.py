@@ -1,7 +1,7 @@
 print('\n\t\t\tThe BMI Calculator')
 print('\n\n Welcome to this BMI Calculator! You can check if you are healthy!')
 
-user_input = input(' \nType either "metric" or "imperial" for your preferred units\n or press "Enter" to Exit: ')
+user_input = input(' \n Type either "metric" or "imperial" for your preferred units.\n Press "Enter" to Exit: ')
 
 while user_input == 'metric':
     height = float(input('Enter your height in meters: '))
